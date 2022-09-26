@@ -8,12 +8,7 @@ public class ShowChar {
 
     public static char showChar(String obj, int pos){
 
-        char position = 0;
-        for (int i = 0; i < obj.length(); i++) {
-            pos = i;
-
-        }
-        return position;
+       return obj.charAt(pos);
     }
 
 }
